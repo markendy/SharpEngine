@@ -1,0 +1,20 @@
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\bin\Debug\SharpEngine.exe.config
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\bin\Debug\SharpEngine.exe
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\bin\Debug\SharpEngine.pdb
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.Form1.resources
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.Properties.Resources.resources
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.csproj.GenerateResource.cache
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.csproj.CoreCompileInputs.cache
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.exe
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.pdb
+C:\Users\Алек\Documents\labs2K\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.csprojAssemblyReference.cache
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.csprojAssemblyReference.cache
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.Form1.resources
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.Properties.Resources.resources
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.csproj.GenerateResource.cache
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.csproj.CoreCompileInputs.cache
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.exe
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\obj\Debug\SharpEngine.pdb
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\bin\Debug\SharpEngine.exe.config
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\bin\Debug\SharpEngine.exe
+E:\Life on vuz\Мои наработки\Во время вуза\Семестр 3\TES\NewSourse\TES\NewSE\SharpEngine\SharpEngine\bin\Debug\SharpEngine.pdb
