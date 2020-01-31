@@ -41,11 +41,11 @@ namespace SharpEngine
             {                             
                 if (Core.Hero.X < xMouse_t)
                 {
-                    Core.Hero.X += a/ bfor_c;
+                    Core.Hero.X += a/ l;
                 }
                 else if (Core.Hero.X > xMouse_t)
                 {
-                    Core.Hero.X -= a/ bfor_c;                    
+                    Core.Hero.X -= a / l ;                    
                 }
                 Core.Hero.Y = k * Core.Hero.X + b;
             }
