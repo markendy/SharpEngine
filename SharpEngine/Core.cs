@@ -26,17 +26,23 @@ namespace SharpEngine
         public static void Init()
         {
             CreateWindow(width, heigth, title);
-            MainForm.Controls.Clear();
-            CreateTimer();
+            MainForm.Controls.Clear();           
             MainForm.KeyPreview = true;
             MainForm.KeyDown += MainForm_KeyDown;
             MainForm.MouseClick += MainForm_MouseClick;
+            MainForm.Paint += MainForm_Paint;   
             LoadResourse();
             Register_Objects = new List<object>();
             //==================================
             //Interface.Scenes("MainMenu");
             CreateHumans createHumans = new CreateHumans();
             Hero = createHumans.Create_Knight("Hero", 10, 10);
+            CreateTimer();
+        }
+
+        public static void MainForm_Paint(object sender, PaintEventArgs e)
+        {
+            DrawFrame();
         }
 
         public static void MainForm_MouseClick(object sender, MouseEventArgs e)
@@ -109,17 +115,18 @@ namespace SharpEngine
         {
             Timer timer = new Timer();
             timer.Tick += timerTick;
-            timer.Interval = 16;
+            timer.Interval = 16;//(int)Hero.Speed;
             timer.Start();
         }
 
         public static void timerTick(object sender, EventArgs e)
         {
-            timetick+=16;   //fps?1000/60 
-            if (timetick % 16 == 0)
+            DrawFrame();
+            /*timetick += (int)Hero.Speed;   //fps?1000/60 
+            if (timetick % (int)Hero.Speed == 0)
             {
                 DrawFrame();
-            }
+            }*/
         }
 
         public static void DrawFrame()

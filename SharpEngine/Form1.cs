@@ -24,7 +24,7 @@ namespace SharpEngine
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            Core.DrawFrame();
+            
         }
     }
 }

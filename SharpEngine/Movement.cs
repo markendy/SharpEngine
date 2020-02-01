@@ -25,6 +25,8 @@ namespace SharpEngine
         public static double a;
         public static double bfor_c;
 
+        public static double dx;
+
         public static void Calc()
         {
             a = (double)Math.Abs(xMouse_t - xHero_t);
@@ -33,6 +35,7 @@ namespace SharpEngine
             //l = Math.Sqrt(Math.Pow((double)Math.Abs(Movement.xMouse_t - Movement.xHero_t), 2) + Math.Pow((double)Math.Abs(Movement.yMouse_t - Movement.yHero_t), 2));
             k = (yMouse_t - yHero_t) / (xMouse_t - xHero_t);
             b = (xMouse_t * yHero_t - xHero_t * yMouse_t) / (xMouse_t - xHero_t);
+            dx = a / l ;
         }
 
         public static void Move()
@@ -41,11 +44,11 @@ namespace SharpEngine
             {                             
                 if (Core.Hero.X < xMouse_t)
                 {
-                    Core.Hero.X += a/ l;
+                    Core.Hero.X += dx;
                 }
                 else if (Core.Hero.X > xMouse_t)
                 {
-                    Core.Hero.X -= a / l ;                    
+                    Core.Hero.X -= dx;                    
                 }
                 Core.Hero.Y = k * Core.Hero.X + b;
             }
@@ -53,7 +56,7 @@ namespace SharpEngine
 
         public static void Check()
         {
-            if (Core.Hero.X <= xMouse_t + a / l && Core.Hero.X >= xMouse_t - a / l && Core.Hero.Y <= yMouse_t + a / l && Core.Hero.Y >= yMouse_t - a / l)
+            if (Core.Hero.X <= xMouse_t + dx && Core.Hero.X >= xMouse_t - dx && Core.Hero.Y <= yMouse_t + dx && Core.Hero.Y >= yMouse_t - dx)
             {
                 Core.IsMove = false;
             }

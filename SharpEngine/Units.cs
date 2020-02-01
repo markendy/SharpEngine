@@ -28,8 +28,8 @@ namespace SharpEngine
         public double X { get; set; }
         private double y = 10;
         public double Y { get; set; }
-        //private double speed = 1;
-        //public double Speed { get; set; }
+        private double speed = 1;
+        public double Speed { get; set; }
         //================================addition
         private int armor = 1;
         public int Armor { get; set; }
@@ -44,6 +44,7 @@ namespace SharpEngine
             X = x_;
             Y = y_;
             Name = name_;
+            Speed = 3;
         }
 
         public virtual void Draw()
